@@ -20,27 +20,6 @@ The paper has shown a clear improvement in near-term forecasting performance by 
 - Models: Build a simple AR model for forecasting and try different ways to improve the search terms selection and dimensionality (PCA…)
 - Analysis & improvement: We will analyze our model performance according to the following metric: Does adding Trends data improve the MSE?
 
-## Proposed timeline
-- Week 1:
-    - Task A: Get the Yahoo data and check it. It may need some cleaning or transformation.
-    - Task B: Brainstorm ways to determine the search terms for which a change in query volume is related to a change in the concerned stock volatility.
-- Week 2:
-    - Task C: Fit a simple baseline model.
-    - Task D: Add Trend data, compare the performance and redo task B if necessary.
-- Week 3:
-    - Task E: Try to improve the model (we may not have the time to complete this task).
-    - Task F: Conclude, prepare the data story and film the video.
-
-## Organization within the team
-- A: Mongi extracted the Yahoo dataset while Nour listed the relevant search terms and extracted them from google Trends.
-- B: Mongi and Nour will brainstorm on the search term selection improvement.
-- C: Mongi developed and fitted a baseline model and a trends model.
-- D: In the meantime Mongi implemented the previously brainstormed ideas from task B.
-- E: Upload an html template and create repo for data story. (Everyone)
-- F: Mongi finished the notebook explaining the ideas, methods, math and code.
-- G: Mongi and Nour focused on writing the data story and preparing all needed figures and examples.
-- H: Wrap-up and final touches. (Mongi and Nour) 
-
 ## Reference for inspiration
 "Quantifying Trading Behavior in Financial Markets Using Google Trends", Tobias Preis, Helen Susannah Moat & H. Eugene Stanley, 2013
 
